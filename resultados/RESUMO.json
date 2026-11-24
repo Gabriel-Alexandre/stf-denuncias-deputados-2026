@@ -112,6 +112,7 @@
   "mediana_denuncia_ate_decisao_julgados": 440,
   "van_hattem": {
     "denuncia_ate_inicio_do_julgamento_dias": 206,
+    "denuncia_ate_inicio_se_a_denuncia_for_de_marco_dias": 260,
     "denuncia_ate_hoje_dias": 210,
     "fato_ate_hoje_dias": 832,
     "posicao_ate_o_inicio_do_julgamento": "2º mais rápido entre os 4 que chegaram a julgamento com a data da denúncia conhecida"

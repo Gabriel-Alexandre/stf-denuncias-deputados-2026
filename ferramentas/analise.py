@@ -15,6 +15,10 @@ from statistics import median
 RAIZ = Path(__file__).resolve().parents[1]
 HOJE = date(2026, 11, 24)          # o dia da coleta
 INICIO_JULGAMENTO_VH = date(2026, 11, 20)   # o julgamento virtual do Inq 4978 começou (andamento do STF)
+# rodada 1b: a data da denúncia do van Hattem tem 2 versões. A Gazeta do Povo e a Brasil Paralelo dizem abril (a PGR
+# notificou o deputado em 28/04/2026, a data do casos.csv); o Congresso em Foco diz março, e o andamento do STF registra
+# "Convertido em eletrônico" em 05/03/2026. Com março, o tempo até o julgamento é maior; a posição na fila não muda
+DENUNCIA_VH_SE_MARCO = date(2026, 3, 5)
 
 
 def d(s: str) -> date | None:
@@ -58,6 +62,7 @@ def calcular() -> dict:
         "mediana_denuncia_ate_decisao_julgados": median(l["denuncia_ate_decisao_dias"] for l in com_den),
         "van_hattem": {
             "denuncia_ate_inicio_do_julgamento_dias": vh_ate_inicio,
+            "denuncia_ate_inicio_se_a_denuncia_for_de_marco_dias": (INICIO_JULGAMENTO_VH - DENUNCIA_VH_SE_MARCO).days,
             "denuncia_ate_hoje_dias": vh["denuncia_ate_decisao_dias"],
             "fato_ate_hoje_dias": vh["fato_ate_decisao_dias"],
             "posicao_ate_o_inicio_do_julgamento": "2º mais rápido entre os 4 que chegaram a julgamento com a data da denúncia conhecida",

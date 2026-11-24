@@ -1,4 +1,4 @@
-# O STF apressou o caso do van Hattem? (relatório, rodada 1, 24/11/2026)
+# O STF apressou o caso do van Hattem? (relatório, rodadas 1 e 1b, 24/11/2026)
 
 ## A pergunta
 
@@ -11,6 +11,8 @@ São 2 perguntas com resposta no dado: **(1) o caso dele andou mais rápido que 
 1. Juntar os casos de deputado federal denunciado pela PGR por crime contra a honra (calúnia, difamação, injúria) por uma fala, de 2020 a 2026, achados na imprensa e conferidos no portal de processos e na jurisprudência do STF (`dados/casos.csv`, uma captura por data em `dados/capturas/`).
 2. Medir, em dias corridos, o tempo da denúncia à decisão de receber (ou não) e, nos casos pendentes, da denúncia a hoje.
 3. Validar por outro caminho: as datas do STF relidas do texto das páginas oficiais, sem passar pela planilha (`ferramentas/validacao_independente.py`: **12 de 12** batem).
+
+⚠️ **A data da denúncia do van Hattem tem 2 versões (rodada 1b).** A Gazeta do Povo e a Brasil Paralelo dizem abril de 2026 (a PGR notificou o deputado em 28/04/2026, a data usada na conta); o Congresso em Foco escreveu *"apresentada pela PGR em março deste ano"*, e o andamento do STF registra *"Convertido em eletrônico"* em 05/03/2026. Com março, o tempo até o julgamento é de **260 dias**, e não de 206. Nada na resposta muda: continua mais lento que o do Gilvan (85) e mais rápido que o do Gayer (440).
 
 ⚠️ **O limite:** o STF não publica uma lista de denúncias contra parlamentares por fala. Os 7 casos são os que a busca achou em 24/11/2026; a lista não é completa. Dois processos (Nikolas e o "ladrão" do Gilvan) não tiveram o número achado, e as datas deles vêm da imprensa.
 
@@ -26,7 +28,7 @@ São 2 perguntas com resposta no dado: **(1) o caso dele andou mais rápido que 
 | Otoni de Paula (MDB-RJ) | lives | 14/07/2020 | recebida em 29/06/2023, unanimidade (Pet 9007, plenário, relator Nunes Marques) | **1.080** |
 | Gilvan da Federal, morte de Lula | sessão de comissão da Câmara | não achada | recebida em 18/08/2026, unanimidade (relatora Cármen Lúcia) | 497 do fato à decisão |
 
-**1. O caso dele foi rápido, mas não o mais rápido.** Até o julgamento começar, foram **206 dias** desde a denúncia. Entre os casos que chegaram a julgamento com a data da denúncia conhecida, só o do Gilvan contra o general foi mais rápido: **85 dias** até começar o julgamento, 2,4 vezes menos. O do Gayer levou 440 dias, o do Otoni, 1.080. E 2 denúncias de 2024, contra o Nikolas e o Gilvan, estão sem decisão pública há mais de 2 anos. Do discurso até hoje, o caso dele soma **832 dias**: os 20 meses entre o inquérito e a denúncia foram da PF e da PGR, não do STF.
+**1. O caso dele foi rápido, mas não o mais rápido.** Até o julgamento começar, foram **206 dias** desde a denúncia (260, se ela for de março). Entre os casos que chegaram a julgamento com a data da denúncia conhecida, só o do Gilvan contra o general foi mais rápido: **85 dias** até começar o julgamento, 2,4 vezes menos. O do Gayer levou 440 dias, o do Otoni, 1.080. E 2 denúncias de 2024, contra o Nikolas e o Gilvan, estão sem decisão pública há mais de 2 anos. Do discurso até hoje, o caso dele soma **832 dias**: os 20 meses entre o inquérito e a denúncia foram da PF e da PGR, não do STF.
 
 **2. Ele não seria o primeiro deputado réu por falar dentro da Câmara.** Em 2026 a 1ª Turma já recebeu 2 denúncias contra o Gilvan da Federal por falas dentro da Câmara: o discurso em sessão plenária de novembro de 2025 contra o comandante do Exército (março de 2026) e a fala na Comissão de Segurança Pública de 08/04/2025 (agosto de 2026). Nos 2 casos o STF afastou a imunidade parlamentar. A denúncia contra o van Hattem também cita publicações nas redes sociais, além do discurso.
 

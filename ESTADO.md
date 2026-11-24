@@ -1,10 +1,10 @@
 # ESTADO: onde o trabalho parou
 
-**Atualizado em:** 24/11/2026, rodada 1.
+**Atualizado em:** 24/11/2026, rodada 1b.
 
 ## Em uma frase
 
-Rodada 1 feita: 7 casos de deputado federal denunciado pela PGR por fala, as datas do STF capturadas do portal (Inq 4978, Pet 15178, Inq 4974, Pet 9007) e da imprensa, o tempo da denúncia à decisão, a validação por outro caminho (12 de 12) e 3 gráficos. Resposta: 206 dias no caso do van Hattem, 2º mais rápido entre os que chegaram a julgamento; 4 de 4 denúncias recebidas, por unanimidade.
+Rodada 1 feita: 7 casos de deputado federal denunciado pela PGR por fala, as datas do STF capturadas do portal (Inq 4978, Pet 15178, Inq 4974, Pet 9007) e da imprensa, o tempo da denúncia à decisão, a validação por outro caminho (12 de 12) e 3 gráficos. Rodada 1b: a data da denúncia do van Hattem tem 2 versões (28/04 ou março de 2026, 206 ou 260 dias até o julgamento), e a posição na fila não muda. Resposta: 206 dias no caso do van Hattem, 2º mais rápido entre os que chegaram a julgamento; 4 de 4 denúncias recebidas, por unanimidade.
 
 ## O que fica para uma próxima rodada
 

@@ -44,7 +44,8 @@ def g01(r: dict) -> None:
     ax = fig.add_axes([0.30, 0.13, 0.62, 0.66])
     for i, (nome, v, cor, nota) in enumerate(reversed(barras)):
         ax.barh(i, v, color=cor, height=0.62)
-        ax.text(v + 15, i, f"{v} dias · {nota}", va="center", fontsize=21, color=COR["texto"])
+        rotulo = f"{v} a {r['van_hattem']['denuncia_ate_inicio_se_a_denuncia_for_de_marco_dias']} dias" if "van Hattem" in nome else f"{v} dias"
+        ax.text(v + 15, i, f"{rotulo} · {nota}", va="center", fontsize=21, color=COR["texto"])
         fig.text(0.29, 0.13 + (i + 0.5) * 0.66 / len(barras), nome, ha="right", va="center", fontsize=23,
                  weight="bold" if "van Hattem" in nome else "normal", color=COR["texto"])
     ax.set_xlim(0, 1500); ax.set_ylim(-0.5, len(barras) - 0.5); ax.set_yticks([]); ax.tick_params(axis="x", labelsize=18)
