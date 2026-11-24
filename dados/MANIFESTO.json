@@ -1,0 +1,94 @@
+{
+ "coleta": "2026-11-24",
+ "como": "texto das páginas capturado pelo coletar-fonte.py do repositório de documentação do canal (playwright); as páginas do STF são do portal de processos (aba Andamentos)",
+ "arquivos": {
+  "abr-gayer.txt": {
+   "sha256": "93ada79aeeceb61b6af8d158f3778fd899f612b338c2d7808d820ec4c7186baa",
+   "bytes": 3905
+  },
+  "bahia-otoni.txt": {
+   "sha256": "73923c2bd73a6215f4078a7610f26cfc0ccf04ecfa236de0cd75e8278a356559",
+   "bytes": 4629
+  },
+  "cb-nikolas-denuncia.txt": {
+   "sha256": "4d94378b9af7bade311a856c4170d30567ad4fa53ef8666d6caf36b104907033",
+   "bytes": 4176
+  },
+  "cfoco-gilvan-intima.txt": {
+   "sha256": "2730e300abc9bdf0976cea8e9e6e271cfe26885e2339a775e54a98df5eb73c59",
+   "bytes": 11181
+  },
+  "cfoco-gilvan-voto.txt": {
+   "sha256": "a393047844c629d20049cdf516bde676e07a7b1a0f87c2ffb1db0641a7bf490e",
+   "bytes": 12937
+  },
+  "cfoco-perseguicao.txt": {
+   "sha256": "4cfbec53762b99dea65cd6543914b0804e631b3c5d10bfac95ae352de62e4b64",
+   "bytes": 12504
+  },
+  "cfoco-zanin-destaque.txt": {
+   "sha256": "6fe0ab55bd48c87150fed9e2d6272e4f38bc25feb8b30424eacccf7e001f8584",
+   "bytes": 11082
+  },
+  "cnn-gilvan-ladrao.txt": {
+   "sha256": "ed8691a530d2feddd3923390a92a93ff07eaa7dc86042cb5a2a0d25987442e7f",
+   "bytes": 4623
+  },
+  "cnn-nikolas.txt": {
+   "sha256": "e38a3754680843a305a0e3b3ddd6614c761a90a9af845363f124bfdedf5b7bc1",
+   "bytes": 3189
+  },
+  "em-quatro-anos.txt": {
+   "sha256": "2098fb576a478e90fec670508a595a4d31be8a843c317171516090f137fd15bd",
+   "bytes": 4798
+  },
+  "gazeta-gayer-post.txt": {
+   "sha256": "c77a3bcdfaca1af3d7af56561193c898ae7b4cc10c1c2c1e2b63f5e96f78f324",
+   "bytes": 7837
+  },
+  "gazeta-pgr-denuncia.txt": {
+   "sha256": "f9ae12668f707adc8681ebb5c5095bdd8807eaffac4a658bf4f4ed3088fce659",
+   "bytes": 7410
+  },
+  "gazeta-stf-decide.txt": {
+   "sha256": "5788d5869bf5ccb03464b139bd5b8e2f245b65fec30ab07e720742b59254d194",
+   "bytes": 12321
+  },
+  "infomoney-gilvan-exercito.txt": {
+   "sha256": "698918fdadf2c4897c53bcdcddd7f9387e598ce14fe5c1bdc8770b39c4641080",
+   "bytes": 4338
+  },
+  "itatiaia-gilvan-morte.txt": {
+   "sha256": "4003c4cdb1271caf05b6f5bbae103371f747e4304a0969c5febf9afb3971cb50",
+   "bytes": 3548
+  },
+  "mpf-gilvan-lula.txt": {
+   "sha256": "72baf0d0300e756385d63546b3a4e79eb110cfb3a3c86955bccc57e1d40031b6",
+   "bytes": 4561
+  },
+  "oeste-moraes-antecipa.txt": {
+   "sha256": "c6bdb73642e960358d6eb135f28019816f672ecff68e90cc26eaaf2c62e90514",
+   "bytes": 12103
+  },
+  "stf-inq-4974-gayer.txt": {
+   "sha256": "ded8812335a6748e15dae7eb67b49fd5d4b2c3d5ec8502aeeff5a463fd37b400",
+   "bytes": 12515
+  },
+  "stf-inq-4978-van-hattem.txt": {
+   "sha256": "40a1b635df2d1992bc62085413c0dbe6bdc6ca5b62e378142451ca3cac05ac21",
+   "bytes": 2448
+  },
+  "stf-pet-15178-gilvan.txt": {
+   "sha256": "de93d01ba2e5afff49fb8b92c8a833a30b5ab82629e8e4eddb3b61f4a2864089",
+   "bytes": 8248
+  },
+  "stf-pet-9007-otoni.txt": {
+   "sha256": "ac69f95c20f64e1d09736b3d7225e25c8e98efc2a58891a6a0c6390086d54b07",
+   "bytes": 15363
+  },
+  "terra-otoni-unanimidade.txt": {
+   "sha256": "356285d68de3a04831798d49dc51e73458438a6714b490e052069cb2b03871cb",
+   "bytes": 3290
+  }
+ }
+}

@@ -1,0 +1,18 @@
+{
+  "conferidos": 12,
+  "erros": [],
+  "ok": [
+    "van-hattem.inicio_julgamento = 2026-11-20",
+    "van-hattem.protocolo_inquerito = 2024-09-18",
+    "gilvan-exercito.denuncia = 2025-12-18",
+    "gilvan-exercito.decisao = 2026-03-20",
+    "gayer.denuncia = 2025-02-12",
+    "gayer.decisao = 2026-04-28",
+    "otoni.denuncia = 2020-07-14",
+    "otoni.decisao = 2023-06-29",
+    "dias gilvan-exercito: validação 92 × análise 92",
+    "dias gayer: validação 440 × análise 440",
+    "dias otoni: validação 1080 × análise 1080",
+    "dias van-hattem_ate_inicio: validação 206 × análise 206"
+  ]
+}

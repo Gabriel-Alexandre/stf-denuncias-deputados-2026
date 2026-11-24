@@ -1,0 +1,129 @@
+{
+  "coleta": "2026-11-24",
+  "casos": [
+    {
+      "id": "van-hattem",
+      "deputado": "Marcel van Hattem",
+      "partido": "Novo-RS",
+      "onde_falou": "tribuna do plenário da Câmara",
+      "orgao": "1ª Turma",
+      "relator": "Flávio Dino",
+      "decisao": "sem decisão",
+      "placar": "",
+      "pendente": true,
+      "denuncia_ate_decisao_dias": 210,
+      "fato_ate_decisao_dias": 832,
+      "fato_exato": true
+    },
+    {
+      "id": "gilvan-exercito",
+      "deputado": "Gilvan da Federal",
+      "partido": "PL-ES",
+      "onde_falou": "discurso em sessão plenária da Câmara e redes sociais",
+      "orgao": "1ª Turma",
+      "relator": "Alexandre de Moraes",
+      "decisao": "recebida",
+      "placar": "unanimidade",
+      "pendente": false,
+      "denuncia_ate_decisao_dias": 92,
+      "fato_ate_decisao_dias": 115,
+      "fato_exato": false
+    },
+    {
+      "id": "gayer",
+      "deputado": "Gustavo Gayer",
+      "partido": "PL-GO",
+      "onde_falou": "post no X com montagem",
+      "orgao": "1ª Turma",
+      "relator": "Flávio Dino",
+      "decisao": "recebida",
+      "placar": "4 a 0",
+      "pendente": false,
+      "denuncia_ate_decisao_dias": 440,
+      "fato_ate_decisao_dias": 797,
+      "fato_exato": true
+    },
+    {
+      "id": "otoni",
+      "deputado": "Otoni de Paula",
+      "partido": "MDB-RJ",
+      "onde_falou": "lives nas redes sociais",
+      "orgao": "Plenário",
+      "relator": "Nunes Marques",
+      "decisao": "recebida",
+      "placar": "unanimidade",
+      "pendente": false,
+      "denuncia_ate_decisao_dias": 1080,
+      "fato_ate_decisao_dias": 1108,
+      "fato_exato": false
+    },
+    {
+      "id": "gilvan-morte-lula",
+      "deputado": "Gilvan da Federal",
+      "partido": "PL-ES",
+      "onde_falou": "sessão da Comissão de Segurança Pública da Câmara",
+      "orgao": "1ª Turma",
+      "relator": "Cármen Lúcia",
+      "decisao": "recebida",
+      "placar": "unanimidade",
+      "pendente": false,
+      "denuncia_ate_decisao_dias": null,
+      "fato_ate_decisao_dias": 497,
+      "fato_exato": true
+    },
+    {
+      "id": "nikolas",
+      "deputado": "Nikolas Ferreira",
+      "partido": "PL-MG",
+      "onde_falou": "discurso num evento na sede da ONU",
+      "orgao": "",
+      "relator": "Luiz Fux",
+      "decisao": "sem decisão",
+      "placar": "",
+      "pendente": true,
+      "denuncia_ate_decisao_dias": 851,
+      "fato_ate_decisao_dias": 1105,
+      "fato_exato": false
+    },
+    {
+      "id": "gilvan-ladrao-lula",
+      "deputado": "Gilvan da Federal",
+      "partido": "PL-ES",
+      "onde_falou": "evento sobre armamento",
+      "orgao": "",
+      "relator": "Luiz Fux (segundo a CNN)",
+      "decisao": "sem decisão",
+      "placar": "",
+      "pendente": true,
+      "denuncia_ate_decisao_dias": 781,
+      "fato_ate_decisao_dias": null,
+      "fato_exato": false
+    }
+  ],
+  "julgados": 4,
+  "recebidas": 4,
+  "rejeitadas": 0,
+  "unanimes": 4,
+  "denuncia_ate_decisao_julgados": {
+    "gilvan-exercito": 92,
+    "gayer": 440,
+    "otoni": 1080
+  },
+  "mediana_denuncia_ate_decisao_julgados": 440,
+  "van_hattem": {
+    "denuncia_ate_inicio_do_julgamento_dias": 206,
+    "denuncia_ate_hoje_dias": 210,
+    "fato_ate_hoje_dias": 832,
+    "posicao_ate_o_inicio_do_julgamento": "2º mais rápido entre os 4 que chegaram a julgamento com a data da denúncia conhecida"
+  },
+  "gilvan_exercito_denuncia_ate_inicio_dias": 85,
+  "razao_vh_sobre_gilvan_ate_inicio": 2.42,
+  "pendentes_sem_decisao": {
+    "nikolas": 851,
+    "gilvan-ladrao-lula": 781
+  },
+  "fato_dentro_da_camara_e_recebida": [
+    "gilvan-exercito",
+    "gilvan-morte-lula"
+  ]
+}
